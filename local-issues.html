@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Local Issues | SmartWaste Kottawa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <h1>SmartWaste Kottawa</h1>
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+        <nav id="nav-menu">
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="local-issues.html" class="active">Local Issues</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="events.html">Community Events</a>
+          <a href="feedback.html">Feedback</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Issues Timeline -->
+    <section class="issues">
+      <div class="issues-timeline-section container">
+        <h2 class="section-title">Key Waste Issues in Kottawa</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-trash-alt"></i></div>
+            <div class="timeline-content">
+              <h3>Illegal Dumping</h3>
+              <p>
+                Illegal waste disposal continues to be a pressing concern in
+                Kottawa, where garbage is often dumped in unregulated open
+                spaces, abandoned lots, or roadsides. This not only diminishes
+                the area's visual appeal, but also poses serious health risks to
+                residents due to pest infestations, contamination, and foul
+                odors. Strict monitoring and community reporting tools are
+                essential to tackle this ongoing issue.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-recycle"></i></div>
+            <div class="timeline-content">
+              <h3>Low Recycling Rates</h3>
+              <p>
+                A significant portion of household and commercial waste in
+                Kottawa ends up in landfills instead of being recycled. Despite
+                growing environmental awareness, infrastructure such as
+                color-coded bins, sorting stations, and municipal collection
+                programs remain underdeveloped. This hinders proper recycling
+                and contributes to unnecessary environmental burden.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-leaf"></i></div>
+            <div class="timeline-content">
+              <h3>Lack of Awareness about Sustainable Disposal Practices</h3>
+              <p>
+                Many residents are unaware of how to responsibly sort, store,
+                and dispose of their waste. Improper disposal of electronics,
+                plastics, and organic matter leads to both pollution and missed
+                opportunities for reuse. Without targeted education campaigns,
+                community workshops, and school-level programs, sustainable
+                waste habits will remain limited.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery-section">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="images/img1.jpg" alt="Dump site 1" />
+          <div class="text">Overflowing Bins on Route</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="images/img10.jpg" alt="Dump site 2" />
+          <div class="text">Illegal Dumping Near Roads</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="images/img11.jpg" alt="Dump site 3" />
+          <div class="text">Late waste collecting</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="images/img12.jpg" alt="Dump site 4" />
+          <div class="text">Illegal Dumping Near Roads</div>
+        </div>
+        <!-- Arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- Dots -->
+      <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="section-content">
+        <!-- Left -->
+        <div class="footer-left">
+          <p class="footer-text">© 2025 SmartWaste Kottawa</p>
+        </div>
+        <!-- Center -->
+        <div class="footer-center">
+          <div class="social-link-list">
+            <a
+              href="https://www.facebook.com"
+              class="social-link"
+              aria-label="Facebook"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              class="social-link"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              class="social-link"
+              aria-label="X"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="footer-right">
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
