@@ -91,13 +91,13 @@ code .
 
 ### 📚 What I Learned
 
-- ✨ Writing clean semantic HTML5 with accessibility in mind
-- 📱 Crafting responsive layouts with Flexbox and breakpoints
-- 🧠 Using Vue.js to power dynamic forms without backend logic
-- 🎯 Managing performance, file sizes, and load speeds
-- 📷 Capturing original assets & integrating real-world context
-- 🛠️ Organizing code modularly across pages
-- ⏱️ Time-boxing tasks and working within constraints
+- Writing clean semantic HTML5 with accessibility in mind
+- Crafting responsive layouts with Flexbox and breakpoints
+- Using Vue.js to power dynamic forms without backend logic
+- Managing performance, file sizes, and load speeds
+- Capturing original assets & integrating real-world context
+- Organizing code modularly across pages
+- Time-boxing tasks and working within constraints
 
 ---
 
