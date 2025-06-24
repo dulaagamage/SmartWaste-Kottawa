@@ -8,14 +8,16 @@ SmartWaste-Kottawa is a fully front-end responsive web project created for the *
 
 ## 📑 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Tech Stack](#tech-stack)
-- [Setup Instructions](#setup-instructions)
-- [What I Learned](#what-i-learned)
-- [Author](#author)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Live Demo](#live-demo)
+- [Tech Stack](#-tech-stack)
+- [Setup Instructions](#-setup-instructions)
+- [What I Learned](#-what-i-learned)
+- [Author](#-author)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -40,11 +42,24 @@ This is a **pure front-end** project built with **HTML**, **CSS**, **JavaScript*
 
 ## 🖼️ Screenshots
 
-| Register Page                    | Solutions Page                   | Events Page                   |
-| -------------------------------- | -------------------------------- | ----------------------------- |
-| ![](./screenshots/Register.jpeg) | ![](./screenshots/Solutions.png) | ![](./screenshots/Events.png) |
+### Register Page
+![Register Page](./screenshots/Register.jpeg)
 
 ---
+
+### Solutions Page
+![Solutions Page](./screenshots/Solutions.png)
+
+---
+
+### Events Page
+![Events Page](./screenshots/Events.png)
+
+---
+
+## Live Demo
+
+Check out the live project here: [SmartWaste-Kottawa Live Demo](https://smartwaste-kottawa.netlify.app/)
 
 ## 🛠️ Tech Stack
 
@@ -115,7 +130,8 @@ code .
 
 This project was created for academic submission under **OUSL’s EEI3346 Web Application Development** course.
 
-> Feel free to explore, remix, or learn from it — but don’t copy it line-for-line without credit. Sharing is caring, not copying. 😄
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this code for non-commercial and educational purposes, provided that proper credit is given to the original author.
 
 ### 📜 Acknowledgments
 
