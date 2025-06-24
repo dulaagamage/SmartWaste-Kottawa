@@ -48,12 +48,12 @@ This is a **pure front-end** project built with **HTML**, **CSS**, **JavaScript*
 ---
 
 ### Solutions Page
-![Solutions Page](./screenshots/Solutions.png)
+![Solutions Page](./screenshots/Solutions.jpeg)
 
 ---
 
 ### Events Page
-![Events Page](./screenshots/Events.png)
+![Events Page](./screenshots/Events.jpeg)
 
 ---
 
